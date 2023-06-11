@@ -1,1 +1,1 @@
-# calculator
+# Akriti's Calci
