@@ -22,15 +22,15 @@
         <h1 id="toast">Calculator</h1>
         <div class="top-buttons">
           <a href="https://github.com/akrititrivedi/calculator">
-            <img src="assets/GitHubLight.svg" alt="Sun Icon" height="22.5" width="22.5" id="github-icon">
+            <img src="assets/GitHubLight.svg" alt="Sun Icon" height="30" width="30" id="github-icon">
           </a>
           <button type="button" onclick="changeTheme()" class="theme-button">
-            <img src="assets/SunIcon.svg" alt="Theme Icon" height="19" width="19" id="theme-icon">
+            <img src="assets/SunIcon.svg" alt="Theme Icon" height="25" width="25" id="theme-icon">
           </button>
         </div>
       </div>
       <div class="first-row">
-        <input type="text" name="result" id="result" placeholder="Result" readonly />
+        <input type="text" name="solution" id="result" placeholder="solution" readonly />
         <input type="button" value="C" onclick="result.value=''" id="clear-button" />
       </div>
       <div class="second-row">
@@ -55,6 +55,7 @@
         <input type="button" value="/" onclick="liveScreen('/')" />
         <input type="button" value="0" onclick="liveScreen(0)" />
         <input type="button" value="." onclick="liveScreen('.')" />
+        <input type="button" value="%" onclick="liveScreen('%')" />
         <input type="button" value="=" onclick="calculate(result.value)" />
       </div>
     </div>
